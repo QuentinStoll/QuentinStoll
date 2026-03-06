@@ -17,25 +17,25 @@ This repository demonstrates my commitment to automation, version control, and c
 * **Purpose:** Development of a high-performance, multiplayer arcade game engine.
 * **Architecture:** Implemented an **Entity-Component-System (ECS)** pattern to ensure decoupled logic and high scalability.
 * **System/Networking:** Built a robust custom network protocol over **UDP** to handle real-time synchronization, packet loss, and latency compensation.
-* **Key Tech:** C++, Multithreading, Socket Programming, ECS.
+* **Key Tech:** C++, Multithreading, Socket Programming, ECS, cross plateform, server, Interoperability.
 
 ### Glados (Compiler Design & Functional Programming)
 * **Purpose:** Design and implementation of a custom language compiler.
 * **Architecture:** Developed the full pipeline: Lexical analysis, Parsing (AST generation), and Code generation.
 * **System/Engineering:** Deep dive into formal grammars, recursive descent parsing, and functional paradigms to ensure memory safety and efficient type checking.
-* **Key Tech:** Haskell, Compiler Design, Functional Programming, AST.
+* **Key Tech:** Haskell, Compiler Design, Functional Programming, AST, heavy typing, pattern matching.
 
 ### 42sh (Shell & OS Interaction)
 * **Purpose:** Development of a robust UNIX-like shell from scratch.
 * **Architecture:** Implemented a complex Command Line Parser, job control, and signal handling.
 * **System/Engineering:** Deep dive into process lifecycle management (`fork`, `exec`, `wait`), pipe redirection, and environment variable manipulation.
-* **Key Tech:** C, POSIX APIs, Process Control, File Descriptors.
+* **Key Tech:** C, POSIX APIs, Process Control, File Descriptors, linux kernel.
 
 ### Arcade (Modular Software Architecture)
 * **Purpose:** Design of a modular, cross-platform game engine capable of dynamically loading libraries.
 * **Architecture:** Implemented a **Plugin-based architecture** using dynamic linking (`dlopen`, `dlsym`) to switch between different graphics (SFML/NCurses) and game engines at runtime.
 * **System/Engineering:** Focus on decoupling interfaces from implementations to ensure high modularity and maintainability.
-* **Key Tech:** C++, Dynamic Linking, Design Patterns (Factory, Singleton), Abstraction.
+* **Key Tech:** C++, Dynamic Linking, Design Patterns (Factory, Singleton), Abstraction, Interoperability.
 
 ### MyTeams (Network & Distributed Systems)
 * **Purpose:** Implementation of a multi-user communication server using a custom protocol.
