@@ -48,9 +48,3 @@ This repository demonstrates my commitment to automation, version control, and c
 * **Architecture:** Direct interaction with the system interface; mastering the **calling conventions** ($x86\_64$ ABI) and stack frame management.
 * **System/Engineering:** Focused on performance optimization and hardware-level execution logic.
 * **Key Tech:** Assembly (NASM), $x86\_64$ ABI, System Calls, Linker/Loader.
-## ⚙️ Build Process
-This document is automatically generated from LaTeX source files using a CI/CD pipeline. 
-
-To build locally:
-```bash
-make all
